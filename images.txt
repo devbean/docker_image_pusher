@@ -5,7 +5,9 @@ docker.io/redis:5.0.2
 canal/canal-server:v1.1.6
 prom/prometheus:v2.5.0
 grafana/grafana:7.1.0
-sameersbn/squid:3.3.8
+#sameersbn/squid:3.3.8
+elestio/squid:v6.8.0
+
 #支持私库
 #k8s.gcr.io/kube-state-metrics/kube-state-metrics:v2.0.0
 #xhofe/alist:latest
