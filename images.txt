@@ -3,7 +3,7 @@ mysql:8.0.29
 apache/rocketmq:4.9.7
 docker.io/redis:5.0.2
 canal/canal-server:v1.1.6
-prom/prometheus:2.5.0
+prom/prometheus:v2.5.0
 grafana/grafana:7.1.0
 sameersbn/squid:3.3.8
 #支持私库
