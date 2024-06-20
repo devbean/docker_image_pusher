@@ -9,7 +9,9 @@ grafana/grafana:7.1.0
 elestio/squid:v6.8.0
 amazoncorretto:8-alpine-jre
 openjdk:8-jre-alpine
+--platform=linux/arm64 openjdk:8-jre-alpine
 openjdk:8-jre
+--platform=linux/arm64 openjdk:8-jre
 
 #支持私库
 #k8s.gcr.io/kube-state-metrics/kube-state-metrics:v2.0.0
