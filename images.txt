@@ -12,6 +12,7 @@ openjdk:8-jre-alpine
 --platform=linux/arm64 openjdk:8-jre-alpine
 openjdk:8-jre
 --platform=linux/arm64 openjdk:8-jre
+python:3.12.4-slim-bookworm
 
 #支持私库
 #k8s.gcr.io/kube-state-metrics/kube-state-metrics:v2.0.0
