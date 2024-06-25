@@ -8,6 +8,7 @@ grafana/grafana:7.1.0
 #sameersbn/squid:3.3.8
 elestio/squid:v6.8.0
 amazoncorretto:8-alpine-jre
+--platform=linux/arm64 amazoncorretto:8-alpine-jre
 openjdk:8-jre-alpine
 --platform=linux/arm64 openjdk:8-jre-alpine
 openjdk:8-jre
