@@ -13,6 +13,8 @@ openjdk:8-jre-alpine
 --platform=linux/arm64 openjdk:8-jre-alpine
 openjdk:8-jre
 --platform=linux/arm64 openjdk:8-jre
+alpine:3.12
+--platform=linux/arm64 alpine:3.12
 python:3.12.4-slim-bookworm
 # multi-platform docker image
 multiarch/qemu-user-static
