@@ -13,6 +13,8 @@ openjdk:8-jre-alpine
 --platform=linux/arm64 openjdk:8-jre-alpine
 openjdk:8-jre
 --platform=linux/arm64 openjdk:8-jre
+openjdk:8-jre-slim
+--platform=linux/arm64 openjdk:8-jre-slim
 alpine:3.12
 --platform=linux/arm64 alpine:3.12
 bitnami/etcd:3.3
