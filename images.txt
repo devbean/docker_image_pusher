@@ -22,6 +22,7 @@ bitnami/etcd:3.3
 python:3.12.4-slim-bookworm
 # multi-platform docker image
 multiarch/qemu-user-static
+gotson/komga:1.11.1
 moby/buildkit:buildx-stable-1
 
 #支持私库
@@ -29,5 +30,3 @@ moby/buildkit:buildx-stable-1
 #xhofe/alist:latest
 #支持指定架构
 #--platform=linux/arm64 xiaoyaliu/alist
-
-gotson/komga:1.11.1
