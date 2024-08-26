@@ -10,6 +10,8 @@
 #amazoncorretto:8-alpine-jre
 #--platform=linux/arm64/v8 amazoncorretto:8-alpine-jre
 #openjdk:8-jre-alpine
+amazoncorretto:17.0.10-alpine3.19
+--platform=linux/arm64/v8 amazoncorretto:17.0.10-alpine3.19
 #--platform=linux/arm64 openjdk:8-jre-alpine
 #openjdk:8-jre
 #--platform=linux/arm64 openjdk:8-jre
@@ -23,7 +25,7 @@
 ## multi-platform docker image
 #multiarch/qemu-user-static
 #gotson/komga:1.11.1
-neo4j:5.22.0-community-bullseye
+#neo4j:5.22.0-community-bullseye
 #moby/buildkit:buildx-stable-1
 
 #支持私库
