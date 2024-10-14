@@ -27,6 +27,7 @@ amazoncorretto:17.0.10-alpine3.19
 #gotson/komga:1.11.1
 #neo4j:5.22.0-community-bullseye
 #moby/buildkit:buildx-stable-1
+keking/kkfileview:4.1.0
 
 #支持私库
 #k8s.gcr.io/kube-state-metrics/kube-state-metrics:v2.0.0
