@@ -1,3 +1,4 @@
+nginx:1.18.0
 #nginx:1.21.6
 #mysql:8.0.29
 #apache/rocketmq:4.9.7
@@ -10,8 +11,8 @@
 #amazoncorretto:8-alpine-jre
 #--platform=linux/arm64/v8 amazoncorretto:8-alpine-jre
 #openjdk:8-jre-alpine
-amazoncorretto:17.0.10-alpine3.19
---platform=linux/arm64/v8 amazoncorretto:17.0.10-alpine3.19
+#amazoncorretto:17.0.10-alpine3.19
+#--platform=linux/arm64/v8 amazoncorretto:17.0.10-alpine3.19
 #--platform=linux/arm64 openjdk:8-jre-alpine
 #openjdk:8-jre
 #--platform=linux/arm64 openjdk:8-jre
@@ -27,7 +28,7 @@ amazoncorretto:17.0.10-alpine3.19
 #gotson/komga:1.11.1
 #neo4j:5.22.0-community-bullseye
 #moby/buildkit:buildx-stable-1
-keking/kkfileview:4.1.0
+#keking/kkfileview:4.1.0
 
 #支持私库
 #k8s.gcr.io/kube-state-metrics/kube-state-metrics:v2.0.0
