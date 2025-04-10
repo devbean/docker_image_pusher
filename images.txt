@@ -8,9 +8,10 @@
 #grafana/grafana:7.1.0
 ##sameersbn/squid:3.3.8
 #elestio/squid:v6.8.0
-#amazoncorretto:8-alpine-jre
 #--platform=linux/arm64/v8 amazoncorretto:8-alpine-jre
 #openjdk:8-jre-alpine
+#amazoncorretto:8-alpine-jre
+amazoncorretto:8u442-alpine3.21-jre
 #amazoncorretto:17.0.10-alpine3.19
 #--platform=linux/arm64/v8 amazoncorretto:17.0.10-alpine3.19
 #--platform=linux/arm64 openjdk:8-jre-alpine
@@ -27,7 +28,7 @@
 #multiarch/qemu-user-static
 #gotson/komga:1.11.1
 #neo4j:5.22.0-community-bullseye
-moby/buildkit:buildx-stable-1
+#moby/buildkit:buildx-stable-1
 #keking/kkfileview:4.1.0
 #ubuntu:24.04
 
