@@ -11,8 +11,9 @@
 #--platform=linux/arm64/v8 amazoncorretto:8-alpine-jre
 #openjdk:8-jre-alpine
 #amazoncorretto:8-alpine-jre
-amazoncorretto:8u442-alpine3.21-jre
+#amazoncorretto:8u442-alpine3.21-jre
 #amazoncorretto:17.0.10-alpine3.19
+amazoncorretto:21.0.7-alpine3.21
 #--platform=linux/arm64/v8 amazoncorretto:17.0.10-alpine3.19
 #--platform=linux/arm64 openjdk:8-jre-alpine
 #openjdk:8-jre
