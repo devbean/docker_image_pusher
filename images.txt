@@ -1,38 +1,39 @@
-#nginx:1.18.0
-#nginx:1.21.6
-#mysql:8.0.29
-#apache/rocketmq:4.9.7
-#docker.io/redis:5.0.2
-#canal/canal-server:v1.1.6
-#prom/prometheus:v2.5.0
-#grafana/grafana:7.1.0
-##sameersbn/squid:3.3.8
-#elestio/squid:v6.8.0
+#multi-platform docker image
+#sameersbn/squid:3.3.8
+#--platform=linux/arm64 alpine:3.12
+#--platform=linux/arm64 bitnami/etcd:3.3
+#--platform=linux/arm64 openjdk:8-jre
+#--platform=linux/arm64 openjdk:8-jre-alpine
+#--platform=linux/arm64 openjdk:8-jre-slim
+#--platform=linux/arm64/v8 amazoncorretto:17.0.10-alpine3.19
+#--platform=linux/arm64/v8 amazoncorretto:21.0.7-alpine3.21
 #--platform=linux/arm64/v8 amazoncorretto:8-alpine-jre
-#openjdk:8-jre-alpine
+#alpine:3.12
+#amazoncorretto:17.0.10-alpine3.19
+#amazoncorretto:21.0.7-alpine3.21
 #amazoncorretto:8-alpine-jre
 #amazoncorretto:8u442-alpine3.21-jre
-#amazoncorretto:17.0.10-alpine3.19
-#--platform=linux/arm64/v8 amazoncorretto:17.0.10-alpine3.19
-#amazoncorretto:21.0.7-alpine3.21
-#--platform=linux/arm64/v8 amazoncorretto:21.0.7-alpine3.21
-amazoncorretto:8u462-alpine3.22-jre
-#--platform=linux/arm64 openjdk:8-jre-alpine
-#openjdk:8-jre
-#--platform=linux/arm64 openjdk:8-jre
-#openjdk:8-jre-slim
-#--platform=linux/arm64 openjdk:8-jre-slim
-#alpine:3.12
-#--platform=linux/arm64 alpine:3.12
+#amazoncorretto:8u462-alpine3.22-jre
+#apache/rocketmq:4.9.7
 #bitnami/etcd:3.3
-#--platform=linux/arm64 bitnami/etcd:3.3
-#python:3.12.4-slim-bookworm
-## multi-platform docker image
-#multiarch/qemu-user-static
+#canal/canal-server:v1.1.6
+#docker.io/redis:5.0.2
+#elestio/squid:v6.8.0
 #gotson/komga:1.11.1
-#neo4j:5.22.0-community-bullseye
-#moby/buildkit:buildx-stable-1
+#grafana/grafana:7.1.0
 #keking/kkfileview:4.1.0
+#moby/buildkit:buildx-stable-1
+#multiarch/qemu-user-static
+#mysql:8.0.29
+#neo4j:5.22.0-community-bullseye
+#nginx:1.18.0
+#nginx:1.21.6
+#openjdk:8-jre
+#openjdk:8-jre-alpine
+#openjdk:8-jre-slim
+#prom/prometheus:v2.5.0
+#python:3.12.4-slim-bookworm
+python:3.13.2-alpine3.21
 #ubuntu:24.04
 
 #支持私库
